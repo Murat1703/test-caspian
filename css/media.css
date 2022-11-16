@@ -1,0 +1,93 @@
+@media (max-width: 768px){
+	.right-side{
+		display: none;
+	}
+    .header-left-side{
+        background :none;
+        width: auto;
+        height: auto;
+    }
+    .menu-burger{
+        display: block;
+    }
+    .card-item-inner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .about-us-inner-content{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .about-us-inner{
+        padding-bottom: 30px;
+    }
+    .video-block-inner{
+        padding: 40px 10px;
+    }
+    .video-block-inner-content{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .work-content{
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+    .about-work-content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .contact-form-input{
+        grid-template-columns: auto;
+        gap: 10px;
+        justify-content: center;
+    }
+    .contact-form-title{
+        text-align: center;
+    }
+    .slick-slide img {
+        width: 100%;
+    }
+
+}
+@media (max-width: 500px){
+    .img-block img{
+        width: 100%;
+    }
+    .video-block-video img{
+        width: 100%;
+    }
+    .our-numbers-inner-content{
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+    .number-item{
+        padding-bottom: 30px;
+    }
+    .footer-inner-content{
+        grid-template-columns: auto auto;
+        justify-content: center;
+        gap: 0 5px;
+    }
+    .footer-social img{
+        display: inline;
+    }
+}
+
+@media (max-width: 476px ){
+    .work-content img{
+        width: 100%;
+    }
+    .header-left-side-title{
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+    .header-left-side-subtitle{
+        margin-top: 0;
+        font-size: 18px;
+    }
+    .contacts-block{
+        display: none;
+    }
+}
