@@ -34,8 +34,8 @@
         justify-content: center;
     }
     .about-work-content{
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: auto;
         justify-content: center;
     }
     .contact-form-input{
